@@ -11,7 +11,7 @@ governance, streaming with cancel. This repository IS the Maven repo (plain
 ```kotlin
 // settings.gradle.kts (dependencyResolutionManagement) or build.gradle.kts
 repositories {
-    maven { url = uri("https://raw.githubusercontent.com/openstackhq/sapient-android/main") }
+    maven { url = uri("https://raw.githubusercontent.com/openhorizon-labs/sapient-android/main") }
 }
 // app/build.gradle.kts — JNA + kotlinx-coroutines arrive as transitive deps
 dependencies {
