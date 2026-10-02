@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "so.openhorizon",
+    "module": "sapient",
+    "version": "0.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sapient-0.6.2.aar",
+          "url": "sapient-0.6.2.aar",
+          "size": 6108318,
+          "sha512": "77c5dc681d9ef7f17704f42b6089a1d63e4f74f5abdcd721cdca75dcd352be0caa56f95a32df23ff4d9694905baea2cec5b15e7dc58d7e240843bb9e7fa2a982",
+          "sha256": "da166ccdd9170669ae0215eec1a32518dd821a9c243c20d2af03c55b0644cd99",
+          "sha1": "7e2ebead5161263f14a9fe632a55d3f23dec507b",
+          "md5": "3818db3b39ff24577197ca87baee0086"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.14.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "jna",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sapient-0.6.2.aar",
+          "url": "sapient-0.6.2.aar",
+          "size": 6108318,
+          "sha512": "77c5dc681d9ef7f17704f42b6089a1d63e4f74f5abdcd721cdca75dcd352be0caa56f95a32df23ff4d9694905baea2cec5b15e7dc58d7e240843bb9e7fa2a982",
+          "sha256": "da166ccdd9170669ae0215eec1a32518dd821a9c243c20d2af03c55b0644cd99",
+          "sha1": "7e2ebead5161263f14a9fe632a55d3f23dec507b",
+          "md5": "3818db3b39ff24577197ca87baee0086"
+        }
+      ]
+    }
+  ]
+}
