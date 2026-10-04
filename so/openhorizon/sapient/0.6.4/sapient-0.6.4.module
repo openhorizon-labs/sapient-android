@@ -35,11 +35,11 @@
         {
           "name": "sapient-0.6.4.aar",
           "url": "sapient-0.6.4.aar",
-          "size": 6273583,
-          "sha512": "60523a89dd1c49b6b0a26a1fa30021baaeb9daa1b8d728e52fc62b4d177059b883a14d460f0d8cb9acd8954043eb531254aa4198e91bbc9cf663493d8346a1f2",
-          "sha256": "555464a1de8c6918f06982e992eade62a58da6ca59c5c6702aa27cc6861c7660",
-          "sha1": "c812754d6ab85dfe3dd1ed1f43fa49f09cc1b8c7",
-          "md5": "da8903c92181da58389d364dd60ced1c"
+          "size": 6273584,
+          "sha512": "e3ba2b2321fb91178787342a847f8b256be6f93ef8dc8dfe4ec7ff2d0752d6a8e0ba9bcc14bb7b859428816923eb807dd4bf7cf66e67170194e5edd6f45cfc51",
+          "sha256": "f5738adb7d78b10b3d6df905ba0ca08ef9bc6d3bc91908215a069862f0dcf062",
+          "sha1": "3f4f0fe99e72771fb062279014cf472078206a1c",
+          "md5": "46bb5aa766c2fc4c12b93174a0935f4e"
         }
       ]
     },
@@ -91,11 +91,11 @@
         {
           "name": "sapient-0.6.4.aar",
           "url": "sapient-0.6.4.aar",
-          "size": 6273583,
-          "sha512": "60523a89dd1c49b6b0a26a1fa30021baaeb9daa1b8d728e52fc62b4d177059b883a14d460f0d8cb9acd8954043eb531254aa4198e91bbc9cf663493d8346a1f2",
-          "sha256": "555464a1de8c6918f06982e992eade62a58da6ca59c5c6702aa27cc6861c7660",
-          "sha1": "c812754d6ab85dfe3dd1ed1f43fa49f09cc1b8c7",
-          "md5": "da8903c92181da58389d364dd60ced1c"
+          "size": 6273584,
+          "sha512": "e3ba2b2321fb91178787342a847f8b256be6f93ef8dc8dfe4ec7ff2d0752d6a8e0ba9bcc14bb7b859428816923eb807dd4bf7cf66e67170194e5edd6f45cfc51",
+          "sha256": "f5738adb7d78b10b3d6df905ba0ca08ef9bc6d3bc91908215a069862f0dcf062",
+          "sha1": "3f4f0fe99e72771fb062279014cf472078206a1c",
+          "md5": "46bb5aa766c2fc4c12b93174a0935f4e"
         }
       ]
     }
